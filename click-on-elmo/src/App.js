@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Container from "./components/Container";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import characters from "./characters.json";
 
 class App extends Component {
@@ -19,6 +21,9 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
+      <div>
+      <Navbar/>
+      <Header/>
       <Container>
         {this.state.characters.map(character => (
           <FriendCard
@@ -30,7 +35,8 @@ class App extends Component {
           />
         ))}
       </Container>
-    );
+    </div>
+    )
   }
 }
 

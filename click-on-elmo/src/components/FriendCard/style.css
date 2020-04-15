@@ -1,6 +1,7 @@
 
 .click-image {
   background-size: cover;
+  background-position: 50%;
   background: #fff;
   border: 5px solid hsl(0, 53%, 46%);
   border-radius: 2px;

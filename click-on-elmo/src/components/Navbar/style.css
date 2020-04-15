@@ -1,0 +1,16 @@
+.navbar {
+
+    color: seashell;
+    background-color: rgb(184, 22, 22);
+    box-shadow: 0 4px 2px -2px grey;
+
+}
+
+li {
+    color: whitesmoke;
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    padding: 0 120px;
+    font-size: 22px;
+}
