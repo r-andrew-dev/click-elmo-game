@@ -3,6 +3,7 @@ import FriendCard from "./components/FriendCard";
 import Container from "./components/Container";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 import characters from "./characters.json";
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
           />
         ))}
       </Container>
+      <Footer/>
     </div>
     )
   }

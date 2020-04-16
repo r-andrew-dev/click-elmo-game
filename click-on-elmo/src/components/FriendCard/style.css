@@ -16,20 +16,3 @@
 .click-image:hover {
   transform: scale(1.1, 1.1)
 }
-
-.click-image::after {
-  content: '';
-  position: absolute;
-  /* top: 8px;
-  left: 8px; */
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  /* box-shadow: 0 12px 15px rgba(0,0,0,0.3); */
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.click-image:hover::after {
-  opacity: 1
-}
