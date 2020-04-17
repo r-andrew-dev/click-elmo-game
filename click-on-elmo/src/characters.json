@@ -2,61 +2,74 @@
     {
       "id": 1,
       "name": "Elmo1",
-      "image": "Elmo1.png"
+      "image": "Elmo1.png",
+      "clicked": false
+
     },
     {
         "id": 2,
         "name": "Elmo2",
-        "image": "Elmo2.png"
+        "image": "Elmo2.png",
+        "clicked": false
       },
       {
         "id": 3,
         "name": "Elmo3",
-        "image": "Elmo3.png"
+        "image": "Elmo3.png",
+        "clicked": false
       },
       {
         "id": 4,
         "name": "Elmo4",
-        "image": "Elmo4.png"
+        "image": "Elmo4.png",
+        "clicked": false
       },
       {
         "id": 5,
         "name": "Elmo5",
-        "image": "Elmo5.png"
+        "image": "Elmo5.png",
+        "clicked": false
       },
       {
         "id": 6,
         "name": "Elmo6",
-        "image": "Elmo6.png"
+        "image": "Elmo6.png",
+        "clicked": false
       },
       {
         "id": 7,
         "name": "Elmo7",
-        "image": "Elmo7.png"
+        "image": "Elmo7.png",
+        "clicked": false
       },
       {
         "id": 8,
         "name": "Elmo8",
-        "image": "Elmo8.png"
+        "image": "Elmo8.png",
+         "clicked": false
       },
       {
         "id": 9,
         "name": "Elmo9",
-        "image": "Elmo9.png"
+        "image": "Elmo9.png",
+         "clicked": false
       },
       {
         "id": 10,
         "name": "Elmo10",
-        "image": "Elmo10.png"
+        "image": "Elmo10.png",
+        "clicked": false
       },
       {
         "id": 11,
         "name": "Elmo11",
-        "image": "Elmo11.png"
+        "image": "Elmo11.png",
+        "clicked": false
       },
       {
         "id": 12,
         "name": "Elmo12",
-        "image": "Elmo12.png"
+        "image": "Elmo12.png",
+        "clicked": false
       }
     ]

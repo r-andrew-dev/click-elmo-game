@@ -15,7 +15,8 @@ function FriendCard(props) {
   console.log(props.image)
   return (
     <div className="click-image">
-        <img alt={props.name} src={images[props.image]}/>
+        <img alt={props.name} src={images[props.image]} onClick={() => props.clickCharacter(props.id)}
+        />
       </div>
   )}
 
