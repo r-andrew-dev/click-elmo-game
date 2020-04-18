@@ -12,7 +12,6 @@ const images = importAll(require.context('../../images', false, /\.(png|jpe?g|sv
 // for this great function to import all my images and Kathy TA for finding it! 
 
 function FriendCard(props) {
-  console.log(props.image)
   return (
     <div className="click-image">
         <img alt={props.name} src={images[props.image]} onClick={() => props.clickCharacter(props.id)}

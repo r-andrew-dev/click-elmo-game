@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React, {
+  Component
+} from "react";
 import FriendCard from "./components/FriendCard";
 import Container from "./components/Container";
 import Navbar from "./components/Navbar";
@@ -6,6 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 import characters from "./characters.json";
 
+// PSEDUO CODING PSUEDO CODING PSEDUO CODING 
 
 // My ideas: set score in state, 
 // then using onClick function handler, whenever a character is clicked, 
@@ -32,55 +35,98 @@ import characters from "./characters.json";
 
 // characters.sort(() => Math.random() > 0.5) THANKS KATHY
 
+// PSUEDO CODING PSEDUO CODING PSUEDO CODING 
+
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     characters,
     score: 0,
-    topScore: 0
+    topScore: 0,
+    message: "Click an image to begin!"
   };
 
   clickCharacter = id => {
 
-    const clickedCharacter = this.state.characters.filter(character => character.id === id)
-    let clicked = clickedCharacter[0].clicked
+    if (!this.state.characters[id].clicked && this.state.score < 11) {
+      let characters = this.state.characters.map(character => {
+        if (character.id === id) {
+          character.clicked = true;
+        }
+        return character
+      })
+      this.setState({
+        score: this.state.score + 1,
+        characters: characters,
+        message: "You got it right!"
+      })
+      console.log(characters)
+    } else if (!this.state.characters[id].clicked && this.state.score === 11) {
 
-    if (clicked === false) {
+      let characters = this.state.characters.map(character => {
+        character.clicked = false
+        return character
+      })
 
-      let clicked = true;
-      this.setState({ score: this.state.score + 1 });
-      return clicked = true, console.log(characters)
+      this.setState({
+        characters,
+        score: 0,
+        topScore: 0,
+        message: "Congratulations! You win!"
+      });
+      console.log(characters)
     } else {
+      if (this.state.topScore < this.state.score) {
 
+        let topScore = this.state.score
+
+        this.setState({
+          topScore: topScore
+        })
+      } else {
+        this.setState({
+          topScore: this.state.topScore
+        })
+      }
+
+     let characters = this.state.characters.map(character => {
+        character.clicked = false
+        return character
+      })
+
+      this.setState({
+        characters: characters,
+        score: 0,
+        message: "You Lost. Try again?"
+      });
     }
-    
-    console.log(characters)
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
-  render() {
-    return (
-      <div>
-      <Navbar
-      score={this.state.score}
-      topScore={this.state.topScore}
-      />
-      <Header/>
-      <Container>
-        {this.state.characters.map(character => (
-          <FriendCard
-            clickCharacter={this.clickCharacter} 
-            id={character.id}
-            key={character.id}
-            name={character.name}
-            image={character.image}
-          />
-        )).sort(()=> Math.random() - .5)}
-      </Container>
-      <Footer/>
-    </div>
-    )
-  }
+// Map over this.state.friends and render a FriendCard component for each friend object
+render() {
+  return (
+    <div>
+    <Navbar
+    score={this.state.score}
+    topScore={this.state.topScore}
+    message={this.state.message}
+    />
+    <Header/>
+    <Container>
+      {this.state.characters.map(character => (
+        <FriendCard
+          clickCharacter={this.clickCharacter} 
+          id={character.id}
+          key={character.id}
+          name={character.name}
+          image={character.image}
+        />
+      )).sort(()=> Math.random() - .5)}
+    </Container>
+    <Footer/>
+  </div>
+  )
+}
 }
 
 export default App;

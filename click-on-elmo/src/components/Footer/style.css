@@ -2,3 +2,18 @@
     position: relative;
     bottom: 100%;
 }
+
+.author {
+    align-content: right;
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: seashell;
+    font-size: 22px;
+}
