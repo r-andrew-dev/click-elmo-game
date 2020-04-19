@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/click-elmo-game/static/css/main.ec653367.chunk.css",
+    "main.js": "/click-elmo-game/static/js/main.f849aba4.chunk.js",
+    "main.js.map": "/click-elmo-game/static/js/main.f849aba4.chunk.js.map",
+    "runtime-main.js": "/click-elmo-game/static/js/runtime-main.df5396a0.js",
+    "runtime-main.js.map": "/click-elmo-game/static/js/runtime-main.df5396a0.js.map",
+    "static/js/2.f2984fa6.chunk.js": "/click-elmo-game/static/js/2.f2984fa6.chunk.js",
+    "static/js/2.f2984fa6.chunk.js.map": "/click-elmo-game/static/js/2.f2984fa6.chunk.js.map",
+    "index.html": "/click-elmo-game/index.html",
+    "precache-manifest.b592a3562fea0bca2561176319ab270f.js": "/click-elmo-game/precache-manifest.b592a3562fea0bca2561176319ab270f.js",
+    "service-worker.js": "/click-elmo-game/service-worker.js",
+    "static/css/main.ec653367.chunk.css.map": "/click-elmo-game/static/css/main.ec653367.chunk.css.map",
+    "static/js/2.f2984fa6.chunk.js.LICENSE.txt": "/click-elmo-game/static/js/2.f2984fa6.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/click-elmo-game/static/media/ABCbackground.e387d51e.jpg",
+    "static/media/Elmo1.png": "/click-elmo-game/static/media/Elmo1.7ed41b4b.png",
+    "static/media/Elmo10.png": "/click-elmo-game/static/media/Elmo10.7def0b0b.png",
+    "static/media/Elmo11.png": "/click-elmo-game/static/media/Elmo11.6ed77b96.png",
+    "static/media/Elmo12.png": "/click-elmo-game/static/media/Elmo12.91b8ec6b.png",
+    "static/media/Elmo2.png": "/click-elmo-game/static/media/Elmo2.c74a1371.png",
+    "static/media/Elmo3.png": "/click-elmo-game/static/media/Elmo3.d8d9d006.png",
+    "static/media/Elmo4.png": "/click-elmo-game/static/media/Elmo4.0ad1ec30.png",
+    "static/media/Elmo5.png": "/click-elmo-game/static/media/Elmo5.7240c7c2.png",
+    "static/media/Elmo6.png": "/click-elmo-game/static/media/Elmo6.d53cae0e.png",
+    "static/media/Elmo7.png": "/click-elmo-game/static/media/Elmo7.42f8f339.png",
+    "static/media/Elmo8.png": "/click-elmo-game/static/media/Elmo8.e3f35a90.png",
+    "static/media/Elmo9.png": "/click-elmo-game/static/media/Elmo9.01e64d94.png",
+    "static/media/background.jpg": "/click-elmo-game/static/media/background.6ed66496.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df5396a0.js",
+    "static/js/2.f2984fa6.chunk.js",
+    "static/css/main.ec653367.chunk.css",
+    "static/js/main.f849aba4.chunk.js"
+  ]
+}
