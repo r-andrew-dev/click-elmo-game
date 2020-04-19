@@ -35,7 +35,7 @@ NPM Packages Required:
 
 Happy Coding! 
 
-<img src='./click-on-elmo/src/images/GameShot1.png'>
+<img src='./click-on-elmo/src/images/Clicky_Elmo.gif'>
 
 
 
